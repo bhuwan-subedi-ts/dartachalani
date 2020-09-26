@@ -1,0 +1,41 @@
+.login{
+    background-color: rgb(80, 82, 211);
+    padding: 20px 20px;
+    border-radius: 10px;
+    border:solid 5px rgb(228, 42, 42);
+    position: relative;
+    top: 150px;
+    left: 35%;
+    width: fit-content;
+}
+ input[type=text],[type=password]{
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 20px 10px;
+    border-radius: 20px;
+    border:solid 5px rgb(228, 42, 42);
+}
+.login button{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 10px;
+    border-radius: 20px;
+    border:solid 5px rgb(228, 42, 42);
+}
+.login h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+.login label b{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+button:hover {
+    opacity: 0.8;
+  }
